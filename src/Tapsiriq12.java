@@ -1,0 +1,26 @@
+public class Tapsiriq12 {
+    public static void main(String[] args) {
+
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+
+        System.out.println("Neticeler");
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c);
+
+        System.out.println("a&&b -> " + (a&&b));
+        System.out.println("a&&c -> " + (a&&c));
+        System.out.println("a&&!b -> " + (a&&!b));
+        System.out.println(" ");
+        System.out.println("a||b -> " + (a||b));
+        System.out.println("b||b -> " + (b||b));
+        System.out.println("!a||b -> " + (!a||b));
+        System.out.println(" ");
+        System.out.println("!a -> " + (!a));
+        System.out.println("!b -> " + (!b));
+        System.out.println(" ");
+        System.out.println("(a||b) && c -> " + ((a||b)&&c));
+        System.out.println("!(a&&c) -> " + (!(a&&c)));
+
+    }
+}
