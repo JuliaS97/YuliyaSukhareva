@@ -12,8 +12,12 @@ public class task3 {
         System.out.println(p || q);         // true  (true || false)
         System.out.println(!p && !q);       // false (!true=false, false&&true=false)
         System.out.println(a > 5 || b > 5); // true  (8>5=true, true||false=true)
-        System.out.println(s + a + b);      // QA83  (String+"8"="QA8", "QA8"+"3"="QA83")
+        System.out.println(s + a + b);      // QA83 (QA11 sehv) (String+"8"="QA8", "QA8"+"3"="QA83")
         System.out.println(a + b + s);      // 11QA  (int+int=11, 11+"QA"="11QA")
 
+        /* Ferq var
+        s + a + b = "QA83" — String evvel gelir
+        a + b + s = "11QA" — evvel iki int toplanir, sonra stringe birleshir
+         */
     }
 }
